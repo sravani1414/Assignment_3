@@ -77,6 +77,7 @@
     <Content Include="assets\images\ocean3.gif" />
     <Content Include="assets\images\plane.png" />
     <Content Include="css\main.css" />
+    <Content Include="index.html" />
     <Content Include="scripts\lib\easeljs-0.8.0.min.js" />
     <Content Include="scripts\lib\preloadjs-0.6.0.min.js" />
     <Content Include="scripts\lib\soundjs-0.6.0.min.js" />
