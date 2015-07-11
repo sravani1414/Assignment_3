@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\audio\engine.ogg" />
+    <Content Include="assets\audio\thunder.ogg" />
+    <Content Include="assets\audio\yay.ogg" />
+    <Content Include="assets\images\Slot_Machine_Assignment2-master.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,15 +69,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\cloud.png" />
+    <Content Include="assets\images\ocean.gif" />
+    <Content Include="assets\images\ocean1.png" />
+    <Content Include="assets\images\ocean3.gif" />
+    <Content Include="assets\images\plane.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\audio\" />
     <Folder Include="assets\fonts\" />
-    <Folder Include="assets\images\" />
     <Folder Include="css\" />
     <Folder Include="scripts\" />
   </ItemGroup>
