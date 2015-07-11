@@ -63,15 +63,6 @@
     <Content Include="assets\audio\thunder.ogg" />
     <Content Include="assets\audio\yay.ogg" />
     <Content Include="assets\images\Slot_Machine_Assignment2-master.zip" />
-    <Content Include="scripts\objects\cloud.js.map" />
-    <Content Include="scripts\objects\galaxy.js.map" />
-    <Content Include="scripts\objects\gameobject.js.map" />
-    <Content Include="scripts\objects\island.js.map" />
-    <Content Include="scripts\objects\ocean.js.map" />
-    <Content Include="scripts\objects\plane.js.map" />
-    <Content Include="scripts\objects\planet.js.map" />
-    <Content Include="scripts\objects\scoreboard.js.map" />
-    <Content Include="scripts\objects\spaceship.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -91,15 +82,6 @@
     <Content Include="scripts\lib\soundjs-0.6.0.min.js" />
     <Content Include="scripts\lib\Stats.js" />
     <Content Include="scripts\lib\tweenjs-0.6.0.min.js" />
-    <Content Include="scripts\objects\cloud.js" />
-    <Content Include="scripts\objects\galaxy.js" />
-    <Content Include="scripts\objects\gameobject.js" />
-    <Content Include="scripts\objects\island.js" />
-    <Content Include="scripts\objects\ocean.js" />
-    <Content Include="scripts\objects\plane.js" />
-    <Content Include="scripts\objects\planet.js" />
-    <Content Include="scripts\objects\scoreboard.js" />
-    <Content Include="scripts\objects\spaceship.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +98,12 @@
     <TypeScriptCompile Include="scripts\objects\planet.ts" />
     <TypeScriptCompile Include="scripts\objects\scoreboard.ts" />
     <TypeScriptCompile Include="scripts\objects\spaceship.ts" />
+    <TypeScriptCompile Include="scripts\typings\createjs-lib\createjs-lib.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\easeljs\easeljs.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\preloadjs\preloadjs.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\soundjs\soundjs.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\stats\stats.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\tweenjs\tweenjs.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
